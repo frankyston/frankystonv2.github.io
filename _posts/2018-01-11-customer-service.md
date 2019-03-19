@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Inception Movie"
+title: "Inception Movie"
 author: frankyston
-categories: [ Jekyll, tutorial ]
-image: assets/images/11.jpg
+categories: [Jekyll, tutorial]
+image: assets/images/1.jpg
 description: "My review of Inception movie. Acting, plot and something else in this short description."
 featured: false
 hidden: false

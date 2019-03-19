@@ -1,23 +1,53 @@
-# Mediumish - Jekyll Theme
+# Blog Frankyston Lins
 
-[Live Demo](https://wowthemesnet.github.io/mediumish-theme-jekyll/) &nbsp; | &nbsp; [Download](https://github.com/wowthemesnet/mediumish-theme-jekyll/archive/master.zip) &nbsp; | &nbsp; [Documentation](https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/) &nbsp; | &nbsp; [Buy me a coffee](https://www.wowthemes.net/donate/)
+**Mediumish for Jekyll** is designed and developed by [Sal](https://www.wowthemes.net) and it is _free_ under MIT license.
 
-![mediumish](assets/images/mediumish-jekyll-template.png)
+## How to use
 
+```
+git clone https://github.com/wowthemesnet/mediumish-theme-jekyll.git
 
-### Copyright
+cd mediumish-theme-jekyll
 
-Copyright (C) 2019 Sal, https://www.wowthemes.net
+bundle
+```
 
-**Mediumish for Jekyll** is designed and developed by [Sal](https://www.wowthemes.net) and it is *free* under MIT license. 
+Edit `_config.yml` options. If your site is in `root: baseurl: ''`. Also, change your Google Analytics code, disqus username, authors, Mailchimp list etc.
 
-<a href="https://www.wowthemes.net/donate/" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+```
+jekyll serve --watch
+```
 
-### Contribute
+Start by adding your .md files in `_posts`. Mediumish already has a few examples.
+YAML front matter
 
-1. [Fork the repo](https://github.com/wowthemesnet/mediumish-theme-jekyll).
-2. Clone a copy of your fork on your local
-3. Create a branch off of master and give it a meaningful name (e.g. my-new-mediumish-feature).
-4. Make necessary changes, commit, push and open a pull request on GitHub.
+- featured post - `featured:true`
+- exclude featured post from “All stories” loop to avoid duplicated posts - `hidden:true`
+- post image - `image: assets/images/mypic.jpg`
+- external post image - `image: "https://externalwebsite.com/image4.jpg"`
+- page comments - `comments:true`
+- meta description (optional) - `description: "this is my meta description"`
 
-Thank you!
+### YAML Post Example:
+
+```Yaml
+---
+layout: post
+title:  "We all wait for summer"
+author: john
+categories: [ Jekyll, tutorial ]
+image: assets/images/5.jpg
+description: "Something about this post here"
+rating: 4.5
+---
+```
+
+### YAML Page Example
+
+```Yaml
+---
+layout: page
+title: Mediumish Template for Jekyll
+comments: true
+---
+```
