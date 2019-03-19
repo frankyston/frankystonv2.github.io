@@ -12,6 +12,12 @@ mailchimp-list: "https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a
 include: ["_pages"]
 permalink: /:title/
 
+# seo
+url: https://frankyston.dev
+twitter:
+  username: frankyston
+  card: summary
+
 # Authors
 authors:
   frankyston:
