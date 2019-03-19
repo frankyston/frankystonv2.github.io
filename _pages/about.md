@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /about
 comments: false
+image: assets/images/eu.jpg
 ---
 
 <div class="row justify-content-between">
@@ -19,7 +20,7 @@ comments: false
   <div class="col-md-4">
       
     <div class="sticky-top sticky-top-80">
-      foto
+      <img src="{{ site.baseurl }}/assets/images/eu.jpg" alt="Frankyston Lins" title="Frankyston Lins" />
     
     </div>
   </div>
