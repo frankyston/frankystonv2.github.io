@@ -9,11 +9,13 @@ image: assets/images/eu.jpg
 <div class="row justify-content-between">
   <div class="col-md-8 pr-5">
 
-    <p>Como amante da programação, iniciei meus primeiros códigos com PHP, naquela época foi incrível descobrir um mundo no qual eu poderia fazer qualquer coisa.</p>
+    <p>Comecei a programar tinha 25 anos, mas era tudo uma aventura de um jovem que gosta de fazer código. Foi aos 27 anos que realmente fiz de código minha profissão. Autodidata e com muitao curiosidade fui descobrindo a cada trabalho que passava novos mundos do universo do desenvolvimento web.</p>
 
-    <p>1 ano depois descobri o Ruby on Rails, quando fiz os primeiros projetos com essa stack foi mágico fez eu me apaixanar pela linguagem e o framework.</p>
+    <p>Como amante da programação, iniciei meus primeiros códigos com PHP, naquela época foi incrível descobrir um mundo no qual eu poderia fazer qualquer coisa. 1 ano depois descobri o Ruby on Rails, quando fiz os primeiros projetos com essa stack foi mágico fez eu me apaixanar pela linguagem e o framework, sendo minha principal stack hoje.</p>
 
-    <p>Trabalho com Ruby on Rails desde 2013 e é minha principal Stack hoje para desenvolvimmento web.</p>
+    <p>Sou do interior do Ceará, mas vivo pela Capital Fortaleza. Marido de Nathalia Freitas e pai de uma cachorrinha linda chamada Mel.</p>
+
+    <p>Minhas principais habilidades são: Ruby, Rails, TDD, BDD, Javascript, React, SQL, Agile com XP e Scrum. Um pouco de PHP, Wordpress. Front end com CSS3 e HTML5 e para controle de versão Git.</p>
 
   </div>
 
