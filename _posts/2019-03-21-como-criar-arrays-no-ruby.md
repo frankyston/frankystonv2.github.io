@@ -3,7 +3,7 @@ layout: post
 title: "Como criar Arrays no Ruby"
 author: frankyston
 categories: [tutorial, ruby, dica]
-image: assets/images/dry-rails.jpg
+image: assets/images/ruby-arrays.jpg
 description: "Como criar Arrays no Ruby."
 featured: false
 hidden: false
