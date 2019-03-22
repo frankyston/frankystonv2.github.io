@@ -17,6 +17,21 @@ image: assets/images/eu.jpg
 
     <p>Minhas principais habilidades são: Ruby, Rails, TDD, BDD, Javascript, React, SQL, Agile com XP e Scrum. Um pouco de PHP, Wordpress. Front end com CSS3 e HTML5 e para controle de versão Git.</p>
 
+    <p>
+      <a target="_blank" href="https://twitter.com/frankyston">
+        <img src="{{ site.baseurl }}/assets/images/twitter.png"/>
+      </a>
+      <a target="_blank" href="https://facebook.com/frankyston">
+        <img src="{{ site.baseurl }}/assets/images/facebook.png"/>
+      </a>
+      <a target="_blank" href="https://www.linkedin.com/in/frankyston/">
+        <img src="{{ site.baseurl }}/assets/images/linkedin.png"/>
+      </a>
+      <a target="_blank" href="https://github.com/frankyston">
+        <img src="{{ site.baseurl }}/assets/images/github.png"/>
+      </a>
+    </p>
+
   </div>
 
   <div class="col-md-4">
