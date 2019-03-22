@@ -2,7 +2,7 @@
 layout: post
 title: "O que é DRY?"
 author: frankyston
-categories: [tutorial]
+categories: [tutorial, ruby, dica]
 image: assets/images/dry-rails.jpg
 description: "O que é DRY?."
 featured: false
