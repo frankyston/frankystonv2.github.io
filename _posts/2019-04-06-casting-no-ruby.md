@@ -9,7 +9,7 @@ featured: false
 hidden: false
 ---
 
-Casting, o que ele é? Como usamos? Quais são os seus tipos? Talvez quando você começou a estudar ruby já tenha feita alguma dessas perguntas.
+Casting, o que ele é? Como usamos? Quais são os seus tipos? Talvez quando você começou a estudar ruby você já fez alguma dessas perguntas.
 
 Neste post vamos te mostrar como funciona o casting no Ruby.
 
@@ -17,7 +17,7 @@ Neste post vamos te mostrar como funciona o casting no Ruby.
 
 Casting nada mais é do que você transformar um determinado valor de um tipo de dados para outro.
 
-Por exemplo, você pode transformar um número que está no formado texto (string) para o formato correto que seria ou um número inteiro ou um número real.
+Por exemplo, você pode transformar um número que está no formado texto (string) para o formato correto que desejar.
 
 #### Como usamos?
 
@@ -48,7 +48,7 @@ Também podemos fazer o inverso, transformar um número real para um texto (stri
 String(10.5) #=> "10.5"
 ```
 
-Normalmente usamos `to_s` para fazer o casting do usar a class `String`. Também podemos fazer casting para string usando o método `Kernel#sprintf` e `String#%`:
+Normalmente usamos `to_s` para fazer o casting do que usar a class `String`. Também podemos fazer casting para string usando o método `Kernel#sprintf` e `String#%`:
 
 ```ruby
 sprintf("%s", 10.5) #=> "10.5" 
@@ -56,6 +56,8 @@ sprintf("%s", 10.5) #=> "10.5"
 "%d" % 10.5 #=> "10"
 "%.2f" % 10.5 #=> "10.50"
 ```
+
+Veja qua a sintaxe é bastante parecido com a linguagem C.
 
 ##### Casting para Inteiro
 
@@ -85,8 +87,8 @@ Integer("qualquer texto") # ArgumentError: invalid value for Integer(): "qualque
 ```ruby
 1/2 #=> 0
 ```
-Como estamos dividindo dois inteiros, o resultado é um inteiro. Para resolver este problema, precisamos lançar pelo menos um dos
-aqueles para flutuar:
+Como estamos dividindo dois inteiros, o resultado é um inteiro. Para resolver este problema, precisamos fazer o casting pelo menos um dos
+números para real:
 
 ```ruby
 1.0 / 2 #=> 0.5 
@@ -95,7 +97,7 @@ aqueles para flutuar:
 1.fdiv 2 # => 0.5
 ```
 
-No último exemplo usamod o `fdiv` para poder ter a divisão exata sem precisar fazer o casting de um dos números para realizar a divisão exata.
+No último exemplo usamos o `fdiv` para poder ter a divisão exata sem precisar fazer o casting de um dos números para realizar a divisão exata.
 
 Bom, é isso, qualquer dúvida comente abaixo.
 
