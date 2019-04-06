@@ -106,8 +106,8 @@ Mesmo depois de ver todos esses exemplos ainda tem dúvida se realmente transfor
 ```ruby
 "12".to_i #=> 12
 "abc12".to_i #=> 0
-"12".to_i.class #=> Fixnum
-"abc12".to_i.class #=> Fixnum
+"12".to_i.class #=> Integer
+"abc12".to_i.class #=> Integer
 12.to_s.class #=> String
 ```
 
