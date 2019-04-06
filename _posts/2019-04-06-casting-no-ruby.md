@@ -99,6 +99,18 @@ números para real:
 
 No último exemplo usamos o `fdiv` para poder ter a divisão exata sem precisar fazer o casting de um dos números para realizar a divisão exata.
 
+#### Será que transformou mesmo?
+
+Mesmo depois de ver todos esses exemplos ainda tem dúvida se realmente transformou, use o método `.class` para verificar qual classe o valor transformado ele é depois do casting.
+
+```ruby
+"12".to_i #=> 12
+"abc12".to_i #=> 0
+"12".to_i.class #=> Fixnum
+"abc12".to_i.class #=> Fixnum
+12.to_s.class #=> String
+```
+
 Bom, é isso, qualquer dúvida comente abaixo.
 
 Até o próximo post.
