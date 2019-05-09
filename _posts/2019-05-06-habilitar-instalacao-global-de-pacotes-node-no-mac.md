@@ -9,8 +9,6 @@ featured: false
 hidden: false
 ---
 
- Habilitar Instalação de pacotes do NodeJS global no mac
-
 Hoje iniciei os estudos com React Native, quando instalei o NodeJS e NPM tive um problema com a instalação do React Native.
 
 Ao executar `npm install -g react-native-cli` meu mac não tinha permissão para instalar no diretório padrão configurado pelo npm.
