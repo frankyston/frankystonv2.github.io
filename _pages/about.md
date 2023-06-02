@@ -30,6 +30,9 @@ image: assets/images/eu.jpg
       <a target="_blank" href="https://github.com/frankyston">
         <img src="{{ site.baseurl }}/assets/images/github.png"/>
       </a>
+      <a target="_blank" href="https://www.youtube.com/programadorshowzim">
+        <img src="{{ site.baseurl }}/assets/images/youtube.png"/>
+      </a>
     </p>
 
   </div>
