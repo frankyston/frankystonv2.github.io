@@ -5,6 +5,10 @@ https://alfredfrancis.in/easily-manage-your-jekyll-sites-using-docker-compose-an
 
 ## How to use
 
+```
+bundle exec jekyll serve --livereload
+```
+
 ### Build image and run container
 
 ```
