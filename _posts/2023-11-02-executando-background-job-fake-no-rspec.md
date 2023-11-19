@@ -2,7 +2,7 @@
 layout: post
 title: "Executando background job fake no Rspec"
 author: frankyston
-categories: [ruby, rails, console]
+categories: [ruby, rails, background job, rspec, job]
 image: assets/images/job-fake.png
 description: "Executando background job fake no Rspec"
 featured: false

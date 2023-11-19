@@ -2,7 +2,7 @@
 layout: post
 title: "Criando index no banco de dados com Rails"
 author: frankyston
-categories: [ruby, rails, console]
+categories: [ruby, rails, banco de dados, index, postgresql]
 image: assets/images/index-rails.jpg
 description: "Criando index no banco de dados com Rails"
 featured: false
