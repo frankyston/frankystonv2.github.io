@@ -32,6 +32,12 @@ irb(main):003>
 
 Como podem observar, o caractere `‎` ainda continua mesmo usando o strip.
 
+Para não ficar estranho, como se trata de um caracter invisível, tive que tirar um print do código para vocês verem o caractere em ação:
+
+![Exemplo do Caractere invisível em ação](/assets/images/caracter-invisible-1.jpg)
+
+O nosso amigo invisível é `[U+200E]`.
+
 Isso me deixou intrigado, pesquisando na internet não vi nada que pudesse resolver de forma nativa pelo ruby.
 
 Será que é de próposito não tratar esse caractere no strip?
